@@ -1,0 +1,93 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, rgb(30, 28, 156), rgb(179, 165, 165));
+    background-repeat: no-repeat;
+    user-select: none;
+    height: 100vh;
+}
+
+#input{
+    padding: 20px 10px;
+    width: 300px;
+
+    background-color: rgb(179, 165, 165);
+    border-radius: 15px;
+    border: transparent;
+    text-align: center;
+    align-self:center ;
+    justify-self: center;
+    font-size: 20px;
+}
+::placeholder{
+color: black;
+opacity: 0.5;
+}
+
+#image{
+    font-size: 48px;
+    color: white;
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 50%;
+    align-self: center;
+    justify-self: center;
+    margin-top: 10%;
+}
+
+#add{
+    padding: 20px 10px;
+    width: 280px;
+    align-self:center ;
+    justify-self: center;
+    background-color: rgb(170, 18, 18);
+    color: blanchedalmond;
+    border-radius: 20px;
+    text-align: center ;
+    border: transparent;
+    font-size: 20px;
+}
+
+#add:hover{
+background-color: rgb(94, 87, 87);
+}
+
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center; 
+}
+
+ul li {
+    border-radius: 5px;
+    color: black;
+    flex-grow: 1;
+    flex-basis: calc(20% - 10px); /* Distribute items evenly in three columns with some margin */
+    margin: 5px; /* Add margin for spacing between items */
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: blanchedalmond;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: whitesmoke;
+
+}
+
+footer{
+    justify-self: center;
+    align-self: center;
+    color: black;
+}
+
+a{
+    color:white;
+}
